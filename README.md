@@ -17,3 +17,7 @@
   - For example, df.loc[['row1_column_2_value']] <-- this will return all column of row 1
   - <column_filter> Pass in an array or series of the columns you want to keep
   - For example, df.loc[<row_filter>, ['column1', 'column2']
+  
+## DataFrame.sum()
+- When summing up cells with boolean values, it will take True as 1 and False as 0, hence essentially counting the number of true cells
+- sum() method by default moves down the column and sum the values of all the rows. This can be modified with the axis kwarg.
